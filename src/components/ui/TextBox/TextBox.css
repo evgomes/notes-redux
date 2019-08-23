@@ -1,0 +1,10 @@
+.textBox {
+  width: 100%;
+  border: 1px solid #483D8B;
+  height: 30px;
+  border-radius: 0.2em;
+}
+
+.textBox:focus {
+  border: 1px solid #8b693d;
+}

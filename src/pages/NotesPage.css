@@ -1,0 +1,38 @@
+.notesPage {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .notesPage {
+    flex-direction: column;
+  }
+}
+
+.notesPage .addNote {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .notesPage .addNote {
+    width: 100%;
+  }
+}
+
+.notesPage .addNote .card {
+  margin-bottom: 1em;
+}
+
+.notesPage .notes {
+  width: 100%;
+  padding-left: 50px;
+}
+
+@media (max-width: 768px) {
+  .notesPage .notes {
+    width: auto;
+    padding-left: 0;
+  }
+}

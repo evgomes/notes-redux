@@ -1,0 +1,17 @@
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #483D8B;
+    color: #fff;
+}
+
+.header h1 {
+    margin-left: 1em;
+    font-size: 1.6rem;
+}

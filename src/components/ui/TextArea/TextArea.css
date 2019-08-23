@@ -1,0 +1,9 @@
+.textArea {
+  width: 100%;
+  border: 1px solid #483D8B;
+  border-radius: 0.2em;
+}
+
+.textArea:focus {
+  border: 1px solid #8b693d;
+}

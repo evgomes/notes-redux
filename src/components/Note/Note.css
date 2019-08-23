@@ -1,0 +1,21 @@
+.note {
+  width: 300px;
+  margin: 0 1em 1em 0;
+}
+
+.note .card {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .note {
+    width: 100%;
+    margin: 0;
+    height: auto;
+    margin-bottom: 1em;
+  }
+}
+
+.note .note-footer {
+  margin-top: 1em;
+}

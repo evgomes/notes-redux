@@ -1,0 +1,24 @@
+.notes-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notes-list .advice {
+    position: relative;
+    margin: 1em 0 1em 30px;
+}
+
+.notes-list .advice::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 40px;
+    left: -30px;
+    top: -10px;
+	background-color: #8b693d;
+}
+@media(max-width: 768px) {
+    .notes-list {
+        height: auto;
+    }
+}

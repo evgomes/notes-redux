@@ -1,0 +1,10 @@
+.card-header {
+    background-color: #483D8B;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+}
+
+.card-header .card-title {
+    font-size: 1rem;
+}

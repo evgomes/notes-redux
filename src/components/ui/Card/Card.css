@@ -1,0 +1,8 @@
+.card {
+    position: relative;
+    border: 1px solid #483D8B;
+    border-radius: 0.2em;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
